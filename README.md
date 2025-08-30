@@ -64,7 +64,35 @@ This system implements a modern microservices architecture with the following co
 
 ## 🚀 Quick Start
 
-### Option 1: Docker Compose (Recommended)
+### Option 1: One-Click Startup (Recommended)
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd Cricket-system-
+   ```
+
+2. **Build and start everything**
+   ```bash
+   ./start.sh
+   ```
+
+3. **Access the application**
+   - Frontend: http://localhost:3000
+   - API Gateway: http://localhost:8080
+   - Eureka Dashboard: http://localhost:8761
+
+4. **Stop the system**
+   ```bash
+   ./stop.sh
+   ```
+
+5. **Add demo data (optional)**
+   ```bash
+   ./add-demo-data.sh
+   ```
+
+### Option 2: Docker Compose
 
 1. **Clone the repository**
    ```bash
@@ -92,7 +120,7 @@ This system implements a modern microservices architecture with the following co
    - API Gateway: http://localhost:8080
    - Eureka Dashboard: http://localhost:8761
 
-### Option 2: Manual Startup
+### Option 3: Manual Startup
 
 1. **Start Infrastructure**
    ```bash
